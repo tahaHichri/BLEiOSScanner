@@ -17,9 +17,6 @@ This class will help you:
 2 - Include BluetoothLEManager class in your ViewController
 ```objective-c
 #import "BlueToothLEManager.h"
-@interface ViewController ()
-@property (strong) BlueToothLEManager *bluetoothManager;
-@end
 ```
 
 3 - declare BluetoothLEManager and intialize it
@@ -39,7 +36,7 @@ This class will help you:
 
 
 <b>NOTE:</b> You can use TableView to display the list of devices. the discovered devices are stored in <i>foundDevices</i>
-Don't forget to set the tableView delegate and source
+Don't forget to set the tableView delegate and source. <br/>
 example:
 ```objective-c
 - (void)viewDidLoad {
@@ -50,12 +47,13 @@ example:
 }
 ```
 
-<h2>Excerpt of console log ( the remaining has been deliberately omitted )</h2>
+<h2>Excerpt of console log (the remaining has been deliberately omitted)</h2>
 <img src="http://i.imgur.com/pk8Z9wY.jpg" alt="preview of console">
 
 
 
-   Copyright 2016 hishri taha.
+
+   Copyright 2016 hishri taha. <br/>
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
